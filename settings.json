@@ -1,0 +1,22 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.idea": true,
+        "**/node_modules": true,
+        "**/dist": true,
+    },
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+    "editor.comments.ignoreEmptyLines": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "remove-empty-lines.runOnSave": true,
+    "remove-empty-lines.allowedNumberOfEmptyLines": 1
+}
